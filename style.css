@@ -1,0 +1,25 @@
+.slider {
+    width: 400px; /* Adjust the width as needed */
+    margin: 0 auto;
+}
+.slider img {
+    width: 100%;
+}
+  .custom-arrows {
+    position: relative;
+}
+.custom-arrows .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #ccc;
+    padding: 8px;
+    cursor: pointer;
+    z-index: 1;
+}
+.custom-arrows .arrow-prev {
+    left: 10px;
+}
+.custom-arrows .arrow-next {
+    right: 10px;
+}
